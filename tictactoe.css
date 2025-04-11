@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #548687;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    /* gap: 1.5vmin; */
+
+}
+.game{
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vh;
+    width: 18vh;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    /* display: flex;
+    flex-wrap: wrap; */
+    border-radius: 1rem;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    /* display: flex;
+    flex-wrap: wrap; */
+    border-radius: 1rem;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+/* result area after completing the game ..... */
+
+.msg-container{
+    height: 120vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    
+
+}
+#msg{
+    color: #b0413e;
+    font-size: 6vmin;
+}
+.hide{
+    display: none;
+}
